@@ -34,6 +34,11 @@ h4 {
   padding:0 0 0 1em;
 }
 
+.banner{
+  width:100%;
+  positon:relative;
+}
+
 .aboutus{
   background-color:#edb965;
   padding:1em;
@@ -102,6 +107,11 @@ ul.nav{
   margin:0;
   padding:1em 0 1em 0;
   text-align:center;
+  position:absolute;
+  top:11em;
+  color:white;
+  font-weight:bold;
+  left:5em;
 }
 
 .customers {
