@@ -6,17 +6,20 @@ html {
   box-sizing:inherit;
 }
 
+header{
+  background-color:#c1670e;
+}
+
+
 body{
   margin:0;
 }
 
-span {
-  float:right;
-  text-decoration:underline;
-}
-
 h1 {
   text-align:center;
+  margin:0;
+  padding:1em;
+
 }
 
 h2 {
@@ -31,19 +34,67 @@ h4 {
   padding:0 0 0 1em;
 }
 
+.aboutus{
+  background-color:#edb965;
+  padding:1em;
+
+}
+
+
+.menutitle{
+  text-align:center;
+  position:absolute;
+  color:white;
+}
+
+.food1{
+  width:50%;
+  float:right;
+  clear:right;
+  position:relative;
+}
+
+.food2{
+  width:50%;
+  float:left;
+  clear:left;
+  position:relative;
+}
+
+.food3{
+  width:50%;
+  float:right;
+  clear:right;
+  position:relative;
+}
+
+.food4{
+  width:50%;
+  float:left;
+  clear:left;
+  position:relative;
+}
+
+.reviews{
+  background-color:#c1670e;
+  padding:1em;
+
+}
 
 ul.nav{
   padding:0;
+  margin:0;
 }
  li.nav{
    list-style:none;
-   width:25%;
+   width:23%;
    display:inline-block;
    padding:1em;
-   border: solid black;
    border-radius:10px;
    text-align:center;
    float:left;
+   background-color:#edb965;
+   margin:0.25em;
  }
 
 .tagline {
@@ -54,5 +105,17 @@ ul.nav{
 }
 
 .customers {
+  text-align:center;
+}
+
+.contact {
+  background-color:#edb965;
+  padding:1em;
+
+}
+
+footer {
+  background-color:#c1670e;
+  padding:1em;
   text-align:center;
 }
