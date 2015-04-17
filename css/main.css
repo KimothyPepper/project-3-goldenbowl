@@ -19,9 +19,14 @@ h1 {
   text-align:center;
   margin:0;
   padding:1em;
+  font-family: 'Rock Salt', cursive;
 
 }
 
+.aboutpic {
+  float:left;
+  margin:1em;
+}
 h2 {
   text-align:center;
 
@@ -42,6 +47,7 @@ h4 {
 .aboutus{
   background-color:#edb965;
   padding:1em;
+  margin:0;
 
 }
 
@@ -86,18 +92,34 @@ h4 {
 
 }
 
-ul.nav{
-  padding:0;
+.button1{
+  width:50%;
+  float:left;
+  clear:left;
+}
+.button2{
+  width:50%;
+  float:right;
+  clear:right;
+}
+}
+ul{
   margin:0;
 }
- li.nav{
+
+.nav{
+  padding:0;
+  margin:0;
+  background-color:#c1670e;
+}
+
+ .nav li{
    list-style:none;
-   width:23%;
+   width:22%;
    display:inline-block;
    padding:1em;
    border-radius:10px;
    text-align:center;
-   float:left;
    background-color:#edb965;
    margin:0.25em;
  }
@@ -106,12 +128,15 @@ ul.nav{
   clear:both;
   margin:0;
   padding:1em 0 1em 0;
-  text-align:center;
   position:absolute;
-  top:11em;
+  top:13em;
   color:white;
   font-weight:bold;
   left:5em;
+}
+
+.aboutpic {
+  width:50%;s
 }
 
 .customers {
@@ -122,6 +147,10 @@ ul.nav{
   background-color:#edb965;
   padding:1em;
 
+}
+
+.map{
+  width:100%;
 }
 
 footer {
