@@ -64,7 +64,8 @@ h4 {
   position:absolute;
   color:white;
 }
- .menu{
+
+.menu{
    overflow:hidden;
  }
 .food1{
@@ -155,7 +156,10 @@ ul{
   padding:2em;
   width:50%;
   margin:0 auto;
+}
 
+.glass:hover{
+  background-color:#c1670e;
 
 }
 .icon {
