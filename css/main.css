@@ -37,11 +37,7 @@ nav li:hover {
 body{
   margin:0;
 }
-.logo {
-  width:25%;
-  display:inline-block;
-  float:left;
-}
+
 
 img{
   width:100%;
@@ -89,16 +85,12 @@ h3 {
   font-family: 'Oswald', sans-serif;
 
 }
-h4 {
-  padding:0 0 0 1em;
-}
+
 
 .banner{
   width:100%;
 }
-.aboutustitle {
-  margin:0;
-}
+
 
 .aboutus{
   background-color:#edb965;
@@ -157,16 +149,6 @@ h4 {
 
 }
 
-.button1{
-  width:50%;
-  float:left;
-  clear:left;
-}
-.button2{
-  width:50%;
-  float:right;
-  clear:right;
-}
 
 nav:ul {
   margin:0;
@@ -239,22 +221,13 @@ nav:ul {
 
 }
 
-.map{
-  width:100%;
-  margin:1em 0 1em 0;
-}
+
 
 footer {
   background-color:#c1670e;
   padding:1em;
   text-align:center;
 
-}
-
-.insta{
-  width:25%;
-  overflow:hidden;
-  z-index:1000;
 }
 
 
