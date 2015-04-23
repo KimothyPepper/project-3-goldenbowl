@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="600px" height="600px" viewBox="0 0 600 600" enable-background="new 0 0 600 600" xml:space="preserve">
-<polygon fill="#D62D2B" stroke="#010101" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-	20,190.9 82.7,575.3 437.8,575.3 467.1,190.9 "/>
-<polygon fill="#AE1F27" stroke="#010101" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-	216.4,115.7 20,190.9 467.1,190.9 567.4,111.5 "/>
-<polygon fill="#D62D2B" stroke="#010101" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-	437.8,575.3 533.9,489.5 567.4,111.5 467.1,190.9 "/>
-<polyline fill="none" stroke="#010101" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-	533.9,216 467.1,44.7 170.4,23.8 102.6,159.3 "/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600"><path fill="#D62D2B" stroke="#010101" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M20 190.9l62.7 384.4h355.1l29.3-384.4z"/><path fill="#AE1F27" stroke="#010101" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M216.4 115.7l-196.4 75.2h447.1l100.3-79.4z"/><path fill="#D62D2B" stroke="#010101" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M437.8 575.3l96.1-85.8 33.5-378-100.3 79.4z"/><path stroke="#010101" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" d="M533.9 216l-66.8-171.3-296.7-20.9-67.8 135.5"/></svg>
