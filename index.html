@@ -6,21 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Dancing+Script|Kaushan+Script|Rock+Salt' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Russo+One|Sarpanch' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 
 <header>
 
-<h1>Golden Bowl</h1>
+<img class="logo" src="images/logo.svg"alt="">
+
+<h1 class="title">Golden Bowl</h1>
+
+
 
 <nav>
   <ul class="nav">
 
-    <li>About Us</li>
-    <li>Menu</li>
-    <li>Reviews</li>
-    <li>Contact</li>
+    <li>
+      <a href="#AboutUs">About Us</a>
+    </li>
+    <li>
+      <a href="#Menu">Menu</a>
+    </li>
+    <li>
+      <a href="#Reviews">Reviews</a>
+    </li>
+    <li>
+      <a href="#Contact">Contact</a>
+    </li>
 
   </ul>
 
@@ -34,12 +48,11 @@
 
 <div class="aboutus">
 
-<h2>About Us</h2>
+<h2 id="AboutUS">About Us</h2>
 
 <img class="aboutpic" src="images/aboutus.jpg"alt="">
 
-<p class="about"> Golden Bowl is a family owned buisness. We have been open for many years and serve to please our customers.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum hendrerit nisl quis imperdiet. Nunc nisi neque, varius ac accumsan sed, aliquam id ipsum. Etiam magna neque, suscipit vel laoreet vitae, faucibus a ante. Nam ultricies sodales venenatis. Maecenas euismod quam enim, sit amet vulputate ante tincidunt non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis dolor sit amet, consectetur adipiscing elit.
- </p>
+<p class="about"> Golden Bowl is a family owned buisness. We have been open for many years and serve to please our customers.</p>
 
 </div>
 
@@ -50,10 +63,10 @@
 <img class="food3" src="images/food-3.jpg"alt="">
 <img class="food4" src="images/food-4.jpg"alt="">
 
-<h2 class="menutitle">Menu</h2>
+<h2 id="Menu" class="menutitle">Menu</h2>
 
 <div class="icon">
-  <div class="glass">
+  <div class="circle">
     <img src="images/drink.svg" alt="A glass">
 
   </div>
@@ -61,42 +74,42 @@
 </div>
 
 <div class="icon">
-  <div class="glass">
-    <img src="images/drink.svg" alt="A glass">
+  <div class="circle">
+    <img src="images/startersicon.svg" alt="A glass">
 
   </div>
   <h3>Starters</h3>
 </div>
 
 <div class="icon">
-  <div class="glass">
-    <img src="images/drink.svg" alt="A glass">
+  <div class="circle">
+    <img src="images/canadianicon.svg" alt="A glass">
 
   </div>
   <h3>Canadian Dishes</h3>
 </div>
 <div class="icon">
-  <div class="glass">
-    <img src="images/drink.svg" alt="A glass">
+  <div class="circle">
+    <img src="images/chinesedishesicon.svg" alt="A glass">
 
   </div>
   <h3>Chinese Dishes</h3>
 </div>
 
 <div class="icon">
-  <div class="glass">
-    <img src="images/drink.svg" alt="A glass">
+  <div class="circle">
+    <img src="images/orientalicon.svg" alt="A glass">
 
   </div>
   <h3>Oriental Dishes</h3>
 </div>
 
 <div class="icon">
-  <div class="glass">
-    <img src="images/drink.svg" alt="A glass">
+  <div class="circle">
+    <img src="images/takeouticon.svg" alt="A glass">
 
   </div>
-  <h3>Full Course</h3>
+  <h3>Take Out</h3>
 </div>
 
 
@@ -104,7 +117,7 @@
 
 <div class="reviews">
 
-<h2>Reviews</h2>
+<h2 id="Reviews">Reviews</h2>
 
 <p class="customers">What some of our customers have to say! </p>
 
@@ -116,32 +129,44 @@
 
 <div class="contact">
 
-<h2>Contact</h2>
+<h2 id="Contact">Contact</h2>
 
-<p>We Deliver! 613-744-2865</p>
+<p class="hours">We Deliver!</p> <p>613-744-2865</p>
 
 <p>1598 Cyrville Road, Ottawa</p>
-<p>Business Hours
-  <li>Monday: Closed</li>
-  <li>Tuesday-Thursday: 11:00 AM - 9:00 PM</li>
-  <li>Friday: 11:00 AM - 11:00 PM</li>
-  <li>Saturday: 12:00 PM - 11:00 PM</li>
-  <li>Sunday: 3:00 PM - 9:00 PM</li>
 
-Buffet Hours
-<li>Tuesday-Friday: 11:30 AM - 2:00 PM <span>$12.95 per person</span></li>
+<p class="hours">Business Hours</p>
 
-<li>Friday-Sunday: 5:00 PM - 8:00 PM <span>$15.50 per person (Children Half Price)<span></li>
+  <li><strong>Monday:</strong> Closed</li>
+  <li><strong>Tuesday-Thursday:</strong> 11:00 AM - 9:00 PM</li>
+  <li><strong>Friday:</strong> 11:00 AM - 11:00 PM</li>
+  <li><strong>Saturday:</strong> 12:00 PM - 11:00 PM</li>
+  <li><strong>Sunday:</strong> 3:00 PM - 9:00 PM</li>
+
+<p class="hours">Buffet Hours</p>
+
+<li><strong>Tuesday-Friday:</strong> 11:30 AM - 2:00 PM</li>
+<li>($12.95 per person)</li>
+
+<li><strong>Friday-Sunday:</strong> 5:00 PM - 8:00 PM</li>
+<li>($15.50 per person)</li>
 
   <img class="map" src="images/map.jpg"alt="">
 
 </div>
 
+<div class="footer">
+
 <footer>
 
+  <img class="insta" src="images/instagram.svg"alt="">
+  <img class="insta" src="images/twitter.svg"alt="">
   <a  class="footer" href="#Top">Back to top</a>
 
+
  </footer>
+
+ </div>
 
 
 

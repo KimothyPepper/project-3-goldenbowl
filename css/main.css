@@ -6,13 +6,39 @@ html {
   box-sizing:inherit;
 }
 
+
+
 header{
   background-color:#c1670e;
+
 }
 
+nav a{
+  text-decoration:none;
+  color:black;
+  font-family: 'Oswald', sans-serif;
+  font-size:1em;
+  display:inline-block;
+}
+nav{
+  text-align:center;
+  clear:both;
+}
+nav li:hover {
+  background-color:#d19e54;
+}
 
 body{
   margin:0;
+}
+.logo {
+  width:25%;
+  display:inline-block;
+  float:left;
+}
+
+.title {
+  float:right;
 }
 
 img{
@@ -20,26 +46,32 @@ img{
   display:block;
 }
 
+
 h1 {
   text-align:center;
   margin:0;
-  padding:1em;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Sarpanch', sans-serif;
+  padding:0.5em 0 0.5em 0;
+  width:100%;
 
 }
 
 .aboutpic {
   float:left;
   margin:1em;
+
 }
 h2 {
   text-align:center;
+  font-family: 'Oswald', sans-serif;
 
 }
 
 h3 {
 
   text-align:center;
+  font-family: 'Oswald', sans-serif;
+
 }
 h4 {
   padding:0 0 0 1em;
@@ -63,6 +95,8 @@ h4 {
   text-align:center;
   position:absolute;
   color:white;
+  margin:0;
+  padding:1em 4em 1em 4em;
 }
 
 .menu{
@@ -113,8 +147,10 @@ h4 {
   clear:right;
 }
 }
-ul{
+nav:ul{
   margin:0;
+  display:inline-block;
+  padding: 0 0 0.5em 0;
 }
 
 .nav{
@@ -125,40 +161,41 @@ ul{
 
  .nav li{
    list-style:none;
-   width:22%;
+   width:24%;
    display:inline-block;
    padding:1em;
    border-radius:10px;
    text-align:center;
    background-color:#edb965;
-   margin:0.25em;
+   overflow:hidden;
  }
 
 .tagline {
   clear:both;
   margin:0;
-  padding:1em 0 1em 0;
+  padding:1em 1em 1em 1em;
   position:absolute;
-  top:13em;
+  bottom:19em;
   color:white;
   font-weight:bold;
-  left:5em;
+  font-size:1em;
+  font-family: 'Oswald', sans-serif;
 }
 
 .aboutpic {
   width:35%;
 }
-.glass{
+.circle{
 
 
   border:1px solid black;
   border-radius:50%;
-  padding:2em;
+  padding:1em;
   width:50%;
   margin:0 auto;
 }
 
-.glass:hover{
+.circle:hover{
   background-color:#c1670e;
 
 }
@@ -177,6 +214,10 @@ ul{
   padding:1em;
 
 }
+.hours {
+  font-family: 'Oswald', sans-serif;
+
+}
 
 .map{
   width:100%;
@@ -187,4 +228,22 @@ footer {
   background-color:#c1670e;
   padding:1em;
   text-align:center;
+
+}
+
+.insta{
+  width:25%;
+  overflow:hidden;
+}
+
+
+.footer{
+  text-decoration:none;
+  color:black;
+  font-family: 'Oswald', sans-serif;
+  overflow:hidden;
+}
+
+li {
+  list-style:none;
 }
