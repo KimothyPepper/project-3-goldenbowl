@@ -9,7 +9,13 @@ html {
 
 
 header{
-  background-color:#c1670e;
+  background-image: url("../images/logo.svg");
+  background-size: 80px auto;
+  background-repeat:no-repeat;
+  background-position:left 20px;
+  padding: 4em;
+  background-color: #c1670e;
+
 
 }
 
@@ -51,9 +57,16 @@ h1 {
   text-align:center;
   margin:0;
   font-family: 'Sarpanch', sans-serif;
-  padding:0.5em 0 0.5em 0;
   width:100%;
+}
 
+.tag{
+  margin:0;
+  padding:3em;
+  background-image:url("../images/banner.jpg");
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position:left top;
 }
 
 .aboutpic {
@@ -171,15 +184,12 @@ nav:ul{
  }
 
 .tagline {
-  clear:both;
-  margin:0;
-  padding:1em 1em 1em 1em;
-  position:absolute;
-  bottom:19em;
+  padding-top:3em;
   color:white;
   font-weight:bold;
   font-size:1em;
   font-family: 'Oswald', sans-serif;
+  margin:0;
 }
 
 .aboutpic {
